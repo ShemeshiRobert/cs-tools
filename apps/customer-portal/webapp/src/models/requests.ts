@@ -78,7 +78,6 @@ export interface ProductVulnerabilitiesSearchRequest {
 
 // Request body for posting a case attachment.
 export interface PostCaseAttachmentRequest {
-  referenceType: "case";
   name: string;
   type: string;
   content: string;
